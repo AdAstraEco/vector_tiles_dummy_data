@@ -24,9 +24,9 @@
     <script>
         // create map
         var map = L.map('map', {
-            center: [47, 7],
-            minZoom: 6,
-            maxZoom: 15,
+            center: [-14, -51],
+            minZoom: 0,
+            maxZoom: 14,
             zoomControl: true,
             zoom: 12,
         });
@@ -60,17 +60,21 @@
             rendererFactory: L.canvas.tile,
             interactive: true,
             maxNativeZoom: 15,
-            minZoom: 6,
+            minZoom: 0,
             vectorTileLayerStyles: vectorTileStyling,
         };
 
         // create VectorGrid layer
         var mapPbfLayer = new L.VectorGrid.Protobuf(
-            mapUrl, mapVectorTileOptions
+            mapUrl, mapVectorTileOptions,
+            
+
+
         )
 
         // add VectorGrid layer to map
         mapPbfLayer.addTo(map);
+        
     </script>
 </body>
 
