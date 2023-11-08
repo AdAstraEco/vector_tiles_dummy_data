@@ -1,0 +1,12 @@
+{
+    "name": "out.mbtiles",
+    "description": "out.mbtiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "12",
+    "center": "-47.329102,-15.919069,12",
+    "bounds": "-74.003906,-33.797409,-28.828125,5.353521",
+    "type": "overlay",
+    "format": "pbf",
+    "json": "{\"vector_layers\": [ { \"id\": \"admin1geojson\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 12, \"fields\": {\"ADM0_EN\": \"String\", \"ADM0_PCODE\": \"String\", \"ADM0_PT\": \"String\", \"ADM1_PCODE\": \"String\", \"ADM1_PT\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"admin1geojson\",\"count\": 136576,\"geometry\": \"Polygon\",\"attributeCount\": 5,\"attributes\": [{\"attribute\": \"ADM0_EN\",\"count\": 1,\"type\": \"string\",\"values\": [\"Brazil\"]},{\"attribute\": \"ADM0_PCODE\",\"count\": 1,\"type\": \"string\",\"values\": [\"BR\"]},{\"attribute\": \"ADM0_PT\",\"count\": 1,\"type\": \"string\",\"values\": [\"Brasil\"]},{\"attribute\": \"ADM1_PCODE\",\"count\": 27,\"type\": \"string\",\"values\": [\"BR11\",\"BR12\",\"BR13\",\"BR14\",\"BR15\",\"BR16\",\"BR17\",\"BR21\",\"BR22\",\"BR23\",\"BR24\",\"BR25\",\"BR26\",\"BR27\",\"BR28\",\"BR29\",\"BR31\",\"BR32\",\"BR33\",\"BR35\",\"BR41\",\"BR42\",\"BR43\",\"BR50\",\"BR51\",\"BR52\",\"BR53\"]},{\"attribute\": \"ADM1_PT\",\"count\": 27,\"type\": \"string\",\"values\": [\"Acre\",\"Alagoas\",\"Amapá\",\"Amazonas\",\"Bahia\",\"Ceará\",\"Distrito Federal\",\"Espírito Santo\",\"Goiás\",\"Maranhão\",\"Mato Grosso\",\"Mato Grosso do Sul\",\"Minas Gerais\",\"Paraná\",\"Paraíba\",\"Pará\",\"Pernambuco\",\"Piauí\",\"Rio Grande do Norte\",\"Rio Grande do Sul\",\"Rio de Janeiro\",\"Rondônia\",\"Roraima\",\"Santa Catarina\",\"Sergipe\",\"São Paulo\",\"Tocantins\"]}]}]}}"
+}
