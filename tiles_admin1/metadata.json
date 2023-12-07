@@ -5,8 +5,8 @@
     "minzoom": "0",
     "maxzoom": "10",
     "center": "-44.472656,-23.079635,10",
-    "bounds": "-74.179688,-34.016242,-28.828125,5.266008",
+    "bounds": "-74.179688,-34.016242,-28.828125,5.615986",
     "type": "overlay",
     "format": "pbf",
-    "json": "{\"vector_layers\": [ { \"id\": \"2geojson\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {\"location_id\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"2geojson\",\"count\": 10490,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"location_id\",\"count\": 27,\"type\": \"number\",\"values\": [1087,1255,141,1479,157,1665,1768,1844,2,2262,302,3116,319,3195,3288,3934,4334,459,4630,5130,5210,5352,55,5599,677,78,902],\"min\": 2,\"max\": 5599}]}]}}"
+    "json": "{\"vector_layers\": [ { \"id\": \"1geojson\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {\"location_id\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"1geojson\",\"count\": 10504,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"location_id\",\"count\": 27,\"type\": \"number\",\"values\": [1087,1255,141,1479,157,1665,1768,1844,2,2262,302,3116,319,3195,3288,3934,4334,459,4630,5130,5210,5352,55,5599,677,78,902],\"min\": 2,\"max\": 5599}]}]}}"
 }
